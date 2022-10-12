@@ -21,10 +21,10 @@
     "require": {
         "php": "^7.3",
         "laravel/framework": "^8.0",
-        "phamngoctuong/contracts": "^1.0",
-        "phamngoctuong/support": "^1.0",
-        "phamngoctuong/pagination": "^1.0",
-        "phamngoctuong/options": "^1.0"
+        "phamngoctuong/contracts": "1.0.3",
+        "phamngoctuong/support": "^1.0.3",
+        "phamngoctuong/pagination": "^1.0.3",
+        "phamngoctuong/options": "^1.0.3"
     },
     "autoload": {
         "files": [
