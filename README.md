@@ -51,3 +51,5 @@ Link: [testtiah.com](http://testtiah.com/)
 </IfModule>
 ```
 Link: [localhost](http://localhost/marinesTeam26)
+#### Guid Config 3:
+- Config http to https for localhost
