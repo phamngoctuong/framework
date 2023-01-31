@@ -53,3 +53,21 @@ Link: [testtiah.com](http://testtiah.com/)
 Link: [localhost](http://localhost/marinesTeam26)
 #### Guid Config 3:
 - Config http to https for localhost
+```php 
+<VirtualHost *:80>
+    RewriteEngine on
+    ServerName localhost
+    RewriteRule ^(.*) https://%{SERVER_NAME}$1 [R,L]
+</VirtualHost>
+<VirtualHost localhost:443>
+     DocumentRoot "C:\xampp8\htdocs"
+     ServerName localhost
+     ServerAlias *.localhost
+   <Directory "C:\xampp8\htdocs">
+        Require all granted
+   </Directory>
+     SSLEngine on
+     SSLCertificateFile "conf/localhost/ssl.crt/server.crt"
+     SSLCertificateKeyFile "conf/localhost/ssl.key/server.key"
+</VirtualHost>
+```
