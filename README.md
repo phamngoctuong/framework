@@ -114,7 +114,7 @@ RewriteRule . index.php
   ]
 ]
 ```
-- Config for Yii2 testcom\frontend\config\main.php
+- Config for Yii2 testcom\backend\config\main.php
 ```php
 'components' => [
   'request' => [
